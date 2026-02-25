@@ -1,1 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mental Program for Tennis Players</title>
 
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .gradient-text {
+      background: linear-gradient(to right, #10B981, #06B6D4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .soft-shadow { box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08); }
+    .card-shadow { box-shadow: 0 10px 22px rgba(15, 23, 42, 0.06); }
+    .ring-soft { box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.06); }
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Top Nav -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span class="text-lg font-extrabold text-gray-900">🎾 Mental Program</span>
+      </div>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm font-semibold">
+        <a href="#overview" class="text-gray-600 hover:text-gray-900">Overview</a>
+        <a href="#train" class="text-gray-600 hover:text-gray-900">What we train</a>
+        <a href="#how" class="text-gray-600 hover:text-gray-900">How it works</a>
+        <a href="#beyond" class="text-gray-600 hover:text-gray-900">Beyond tennis</a>
+        <a href="#outcomes" class="text-gray-600 hover:text-gray-900">Outcomes</a>
+        <a href="#faq" class="text-gray-600 hover:text-gray-900">FAQ</a>
+      </nav>
+
+      <a href="#how" class="inline-flex items-center justify-center bg-emerald-600 text-white font-bold px-4 py-2 rounded-lg hover:bg-emerald-500 transition">
+        How it works
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="bg-gray-900 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-18 md:py-20 text-center">
+
+        <div class="inline-flex items-center gap-2 bg-white/10 border border-white/10 px-4 py-2 rounded-full text-sm text-gray-200 mb-6">
+          <span>Emotional Intelligence</span>
+          <span class="opacity-60">•</span>
+          <span>Positive Psychology</span>
+          <span class="opacity-60">•</span>
+          <span>NLP</span>
+        </div>
+
+        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">
+          Mental Program for Tennis Players
+        </h1>
+
+        <p class="text-lg md:text-xl text-gray-200 leading-relaxed max-w-4xl mx-auto mt-5">
+          What we train, what a weekly session looks like, and how we track progress over time.
+        </p>
+
+        <div class="mt-10 flex flex-col sm:flex-row gap-3 justify-center">
+          <a href="#how"
+             class="inline-flex items-center justify-center bg-emerald-500 text-white font-bold py-3 px-8 rounded-xl text-lg hover:bg-emerald-400 transition-transform transform hover:scale-[1.02]">
+            How it works
+          </a>
+          <a href="#outcomes"
+             class="inline-flex items-center justify-center bg-white/10 text-white font-semibold py-3 px-8 rounded-xl text-lg hover:bg-white/15 transition">
+            Outcomes
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+
+      <!-- OVERVIEW -->
+      <section id="overview" class="mb-14">
+        <div class="text-center">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">Program Overview</h2>
+          <p class="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto mt-4">
+            We build emotional skills that show up in competition: stability, focus, resilience, and better decisions.
+            <span class="font-semibold text-gray-900">The goal is simple: consistent decisions under pressure.</span>
+          </p>
+        </div>
+
+        <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+            <p class="text-sm font-semibold text-gray-500 mb-2">Format</p>
+            <p class="text-lg font-bold text-gray-900">1:1 weekly</p>
+            <p class="text-gray-600 mt-2">One 60-min session per week.</p>
+          </div>
+          <div class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+            <p class="text-sm font-semibold text-gray-500 mb-2">Focus</p>
+            <p class="text-lg font-bold text-gray-900">Match behavior</p>
+            <p class="text-gray-600 mt-2">Tools that show up under pressure.</p>
+          </div>
+          <div class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+            <p class="text-sm font-semibold text-gray-500 mb-2">Methods</p>
+            <p class="text-lg font-bold text-gray-900">Applied training</p>
+            <p class="text-gray-600 mt-2">Video + scenarios + habits.</p>
+          </div>
+          <div class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+            <p class="text-sm font-semibold text-gray-500 mb-2">Progress</p>
+            <p class="text-lg font-bold text-gray-900">Track + adjust</p>
+            <p class="text-gray-600 mt-2">We adapt based on results.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHAT WE TRAIN -->
+      <section id="train" class="mb-14">
+        <div class="text-center">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">What we train</h2>
+          <p class="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto mt-4">
+            Clear skills. Simple tools. Direct match application.
+          </p>
+        </div>
+
+        <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+            <div class="flex items-start gap-3">
+              <div class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-700 font-extrabold">1</div>
+              <div>
+                <h3 class="font-bold text-lg text-gray-900">Awareness</h3>
+                <p class="text-gray-600 mt-1">Spot triggers and patterns before they take over.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+            <div class="flex items-start gap-3">
+              <div class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-700 font-extrabold">2</div>
+              <div>
+                <h3 class="font-bold text-lg text-gray-900">Regulation</h3>
+                <p class="text-gray-600 mt-1">Reset the body fast and return to the point.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+            <div class="flex items-start gap-3">
+              <div class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-700 font-extrabold">3</div>
+              <div>
+                <h3 class="font-bold text-lg text-gray-900">Focus</h3>
+                <p class="text-gray-600 mt-1">Simple attention anchors for big points.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+            <div class="flex items-start gap-3">
+              <div class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-700 font-extrabold">4</div>
+              <div>
+                <h3 class="font-bold text-lg text-gray-900">Resilience</h3>
+                <p class="text-gray-600 mt-1">A repeatable 30–60 sec reset routine.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+            <div class="flex items-start gap-3">
+              <div class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-700 font-extrabold">5</div>
+              <div>
+                <h3 class="font-bold text-lg text-gray-900">Communication</h3>
+                <p class="text-gray-600 mt-1">Better player–parent–coach interactions.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+            <div class="flex items-start gap-3">
+              <div class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-700 font-extrabold">6</div>
+              <div>
+                <h3 class="font-bold text-lg text-gray-900">Match application</h3>
+                <p class="text-gray-600 mt-1">Video + scenarios to connect emotions to decisions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section id="how" class="mb-14">
+        <div class="bg-gradient-to-r from-emerald-50 to-cyan-50 rounded-3xl border border-cyan-200 p-8 md:p-10 soft-shadow">
+          <div class="text-center">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">How it works</h2>
+            <p class="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto mt-4">
+              A simple 4-step process — personalized length based on the initial assessment.
+            </p>
+          </div>
+
+          <div class="mt-10 grid md:grid-cols-4 gap-6">
+            <div class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+              <div class="flex items-center justify-between">
+                <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-extrabold">1</div>
+                <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-1 rounded-full">60 min</span>
+              </div>
+              <h3 class="font-bold text-lg text-gray-900 mt-4">Assessment</h3>
+              <p class="text-gray-600 mt-2">Baseline, strengths, match behavior, emotional patterns.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+              <div class="flex items-center justify-between">
+                <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-extrabold">2</div>
+                <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-1 rounded-full">Personal</span>
+              </div>
+              <h3 class="font-bold text-lg text-gray-900 mt-4">Plan</h3>
+              <p class="text-gray-600 mt-2">Focus areas + weekly goals aligned to tournaments.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+              <div class="flex items-center justify-between">
+                <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-extrabold">3</div>
+                <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-1 rounded-full">Weekly</span>
+              </div>
+              <h3 class="font-bold text-lg text-gray-900 mt-4">Training</h3>
+              <p class="text-gray-600 mt-2">Tools + video + scenarios + routines (match-based).</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+              <div class="flex items-center justify-between">
+                <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-extrabold">4</div>
+                <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-1 rounded-full">Wrap</span>
+              </div>
+              <h3 class="font-bold text-lg text-gray-900 mt-4">Review</h3>
+              <p class="text-gray-600 mt-2">Final evaluation + continuity plan.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BEYOND TENNIS (with your repo images) -->
+      <section id="beyond" class="mb-14">
+        <div class="text-center">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-3">Beyond tennis</h2>
+          <p class="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto">
+            We use the same methodology to develop athletes, parents, and corporate teams — because our goal is bigger than sport:
+            <span class="font-semibold text-gray-900">prepare kids with skills for life.</span>
+          </p>
+        </div>
+
+        <div class="mt-10 grid md:grid-cols-3 gap-6">
+          <div class="bg-white rounded-2xl overflow-hidden ring-soft card-shadow">
+            <div class="h-44 bg-gray-200">
+              <img src="images/happy-sports.jpg" alt="Happy Sports" class="w-full h-full object-cover">
+            </div>
+            <div class="p-6">
+              <p class="text-sm font-semibold text-emerald-700">Athletes</p>
+              <h3 class="text-lg font-bold text-gray-900 mt-1">Perform under pressure</h3>
+              <p class="text-gray-600 mt-2">Emotional control, focus, resilience, match decisions.</p>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl overflow-hidden ring-soft card-shadow">
+            <div class="h-44 bg-gray-200">
+              <img src="images/happy-family.jpg" alt="Happy Family" class="w-full h-full object-cover">
+            </div>
+            <div class="p-6">
+              <p class="text-sm font-semibold text-emerald-700">Parents</p>
+              <h3 class="text-lg font-bold text-gray-900 mt-1">Support without pressure</h3>
+              <p class="text-gray-600 mt-2">Communication tools and regulation habits at home.</p>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl overflow-hidden ring-soft card-shadow">
+            <div class="h-44 bg-gray-200">
+              <img src="images/happy-team.jpg" alt="Happy Team" class="w-full h-full object-cover">
+            </div>
+            <div class="p-6">
+              <p class="text-sm font-semibold text-emerald-700">Corporate teams</p>
+              <h3 class="text-lg font-bold text-gray-900 mt-1">Lead with clarity</h3>
+              <p class="text-gray-600 mt-2">Regulation + decision-making in demanding environments.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8 max-w-5xl mx-auto bg-gray-900 text-white rounded-2xl p-7 soft-shadow">
+          <p class="text-lg leading-relaxed">
+            <span class="font-extrabold">Life skills through sport:</span>
+            awareness → regulation → focus → resilience → communication.
+            <span class="text-gray-300">These skills stay with them long after tennis.</span>
+          </p>
+        </div>
+      </section>
+
+      <!-- OUTCOMES (IMPROVED UX/UI) -->
+      <section id="outcomes" class="mb-14">
+        <div class="text-center">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">Expected Outcomes</h2>
+          <p class="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto mt-4">
+            Outcomes are focused, measurable, and connected to match moments.
+          </p>
+        </div>
+
+        <!-- Outcomes UX: 2-column outcome cards + “what you’ll notice” -->
+        <div class="mt-10 grid lg:grid-cols-12 gap-6">
+          <!-- Left: outcomes grid -->
+          <div class="lg:col-span-8 bg-white rounded-3xl ring-soft soft-shadow p-6 md:p-8">
+            <div class="flex items-center justify-between gap-4">
+              <div>
+                <p class="text-sm font-semibold text-emerald-700">On-court + Off-court</p>
+                <h3 class="text-2xl font-extrabold text-gray-900 mt-1">What improves</h3>
+              </div>
+              <div class="hidden md:flex items-center gap-2 text-xs font-semibold text-gray-600 bg-gray-50 border border-gray-200 px-3 py-2 rounded-full">
+                <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                Practical + repeatable
+              </div>
+            </div>
+
+            <div class="mt-6 grid sm:grid-cols-2 gap-4">
+              <!-- Card -->
+              <div class="p-5 rounded-2xl border border-gray-100 bg-gray-50/60">
+                <div class="flex items-start gap-3">
+                  <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-extrabold">✓</div>
+                  <div>
+                    <p class="font-bold text-gray-900">Faster recovery</p>
+                    <p class="text-gray-600 mt-1">Recover after mistakes without spiraling.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-5 rounded-2xl border border-gray-100 bg-gray-50/60">
+                <div class="flex items-start gap-3">
+                  <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-extrabold">✓</div>
+                  <div>
+                    <p class="font-bold text-gray-900">Better decisions</p>
+                    <p class="text-gray-600 mt-1">Shot selection and patience under pressure.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-5 rounded-2xl border border-gray-100 bg-gray-50/60">
+                <div class="flex items-start gap-3">
+                  <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-extrabold">✓</div>
+                  <div>
+                    <p class="font-bold text-gray-900">Stronger focus</p>
+                    <p class="text-gray-600 mt-1">More present in key points and momentum shifts.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-5 rounded-2xl border border-gray-100 bg-gray-50/60">
+                <div class="flex items-start gap-3">
+                  <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-extrabold">✓</div>
+                  <div>
+                    <p class="font-bold text-gray-900">Consistent routines</p>
+                    <p class="text-gray-600 mt-1">Reset habits that make performance predictable.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-5 rounded-2xl border border-gray-100 bg-gray-50/60">
+                <div class="flex items-start gap-3">
+                  <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-extrabold">✓</div>
+                  <div>
+                    <p class="font-bold text-gray-900">Less emotional burnout</p>
+                    <p class="text-gray-600 mt-1">More calm, fewer meltdowns, faster resets.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-5 rounded-2xl border border-gray-100 bg-gray-50/60">
+                <div class="flex items-start gap-3">
+                  <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-extrabold">✓</div>
+                  <div>
+                    <p class="font-bold text-gray-900">Skills for life</p>
+                    <p class="text-gray-600 mt-1">Transfer to school, relationships, and work.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-6 bg-emerald-50 border border-emerald-100 rounded-2xl p-5">
+              <p class="text-emerald-900 font-semibold">
+                The goal is not “perfect emotions”. It’s a reliable reset — and clear decisions — when it matters.
+              </p>
+            </div>
+          </div>
+
+          <!-- Right: what parents notice -->
+          <div class="lg:col-span-4 bg-gray-900 text-white rounded-3xl soft-shadow p-6 md:p-8">
+            <p class="text-sm font-semibold text-emerald-300">What parents usually notice</p>
+            <h3 class="text-2xl font-extrabold mt-2">Changes you can see</h3>
+
+            <div class="mt-6 space-y-4">
+              <div class="rounded-2xl bg-white/10 border border-white/10 p-4">
+                <p class="font-bold">After mistakes</p>
+                <p class="text-gray-200 mt-1">Less crying / anger, faster bounce-back.</p>
+              </div>
+              <div class="rounded-2xl bg-white/10 border border-white/10 p-4">
+                <p class="font-bold">Between points</p>
+                <p class="text-gray-200 mt-1">A clear reset routine (breath + cue + plan).</p>
+              </div>
+              <div class="rounded-2xl bg-white/10 border border-white/10 p-4">
+                <p class="font-bold">After matches</p>
+                <p class="text-gray-200 mt-1">More learning, less conflict and tension.</p>
+              </div>
+            </div>
+
+            <a href="#how" class="mt-8 inline-flex w-full items-center justify-center bg-emerald-500 hover:bg-emerald-400 text-white font-bold py-3 rounded-xl transition">
+              See the process
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="mb-14">
+        <div class="text-center">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-3">FAQ</h2>
+          <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+            Short answers to the most common questions.
+          </p>
+        </div>
+
+        <div class="mt-10 max-w-4xl mx-auto space-y-4">
+          <details class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+            <summary class="font-bold text-gray-900 cursor-pointer">Is this therapy?</summary>
+            <p class="mt-3 text-gray-700">
+              No. This is performance-focused skill training (awareness, regulation, routines, match application).
+            </p>
+          </details>
+
+          <details class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+            <summary class="font-bold text-gray-900 cursor-pointer">How soon will we notice changes?</summary>
+            <p class="mt-3 text-gray-700">
+              Many families notice early changes in reset speed, self-talk, and post-match recovery within a few weeks,
+              with consistent weekly practice.
+            </p>
+          </details>
+
+          <details class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+            <summary class="font-bold text-gray-900 cursor-pointer">What happens in a weekly session?</summary>
+            <p class="mt-3 text-gray-700">
+              A 60-min session combining tools + video review + scenario practice + routines, always connected to real match moments.
+            </p>
+          </details>
+
+          <details class="bg-white p-6 rounded-2xl ring-soft card-shadow">
+            <summary class="font-bold text-gray-900 cursor-pointer">How do parents support at home?</summary>
+            <p class="mt-3 text-gray-700">
+              You’ll get simple reinforcement guidance: what to say, what to avoid, and how to support emotional recovery without adding pressure.
+            </p>
+          </details>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+      <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8 text-center">
+        <p class="font-semibold">&copy; 2026 Happy Family | Happy Team | Happy Sports.</p>
+        <p class="text-sm text-gray-300 mt-1">Empowering athletes to win on and off the court.</p>
+      </div>
+    </footer>
+
+  </main>
+
+</body>
+</html>
