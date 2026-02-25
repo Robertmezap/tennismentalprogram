@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mental Program for Tennis Players (Parents)</title>
+  <title>Mental Program for Tennis Players</title>
 
   <script src="https://cdn.tailwindcss.com"></script>
 
@@ -23,8 +23,8 @@
 
 <body class="bg-gray-50 text-gray-800">
 
-  <!-- Top Nav (no Pricing button) -->
-  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b">
+  <!-- Top Nav -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
       <div class="flex items-center gap-2">
         <span class="text-lg font-extrabold text-gray-900">🎾 Mental Program</span>
@@ -46,9 +46,14 @@
   </header>
 
   <main>
-    <!-- HERO (informative, not salesy) -->
-    <section class="bg-gray-900 text-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+    <!-- HERO (premium, informative) -->
+    <section class="relative overflow-hidden bg-gray-900 text-white">
+      <div class="absolute inset-0 opacity-40">
+        <div class="absolute -top-40 -left-40 w-[520px] h-[520px] bg-emerald-500/30 blur-3xl rounded-full"></div>
+        <div class="absolute -bottom-40 -right-40 w-[520px] h-[520px] bg-cyan-500/25 blur-3xl rounded-full"></div>
+      </div>
+
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
         <div class="inline-flex items-center gap-2 bg-white/10 border border-white/10 px-4 py-2 rounded-full text-sm text-gray-200 mb-6">
           <span>Emotional Intelligence</span>
           <span class="opacity-60">•</span>
@@ -57,19 +62,20 @@
           <span>NLP</span>
         </div>
 
-        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
+        <!-- 1-line title -->
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-5 whitespace-nowrap">
           Mental Program for Tennis Players
         </h1>
 
-        <!-- UPDATED: 2 lines -->
+        <!-- 2 lines only -->
         <p class="text-lg md:text-xl text-gray-200 leading-relaxed max-w-4xl mx-auto mb-10">
-          This page explains what we train, what a weekly session includes, how we plan tournaments, and what results you can expect over time.<br>
-          The focus is simple: emotional stability and clear decisions under pressure.
+          This page explains what we train, what a weekly session looks like, and how we plan tournaments.<br class="hidden sm:block">
+          You’ll also see how we track progress and what outcomes to expect over time.
         </p>
 
         <div class="flex flex-col sm:flex-row gap-3 justify-center">
           <a href="#how"
-             class="inline-flex items-center justify-center bg-emerald-500 text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-emerald-400 transition-transform transform hover:scale-105">
+             class="inline-flex items-center justify-center bg-emerald-500 text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-emerald-400 transition-transform transform hover:scale-[1.02]">
             How it works
           </a>
           <a href="#outcomes"
@@ -82,43 +88,40 @@
 
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
 
-      <!-- OVERVIEW (UPDATED) -->
+      <!-- OVERVIEW -->
       <section id="overview" class="mb-16">
         <div class="text-center">
           <h2 class="text-3xl font-bold text-gray-900 mb-4">Program Overview</h2>
-
-          <!-- UPDATED: New text -->
           <div class="max-w-5xl mx-auto text-lg text-gray-700 leading-relaxed space-y-3">
             <p>
-              The Mental Program develops emotional skills that help players compete with stability, focus, and confidence — while building habits that support school and life.
+              The Mental Program helps players build emotional skills that show up in competition — stability, focus, and better decisions.
             </p>
             <p>
-              We train awareness, regulation, focus, resilience, and communication, then apply them directly to real match situations through video analysis,
-              scenario practice, and structured tournament planning.
+              We train awareness, regulation, resilience, and communication, then apply them to real match moments through video and scenarios.
             </p>
-            <p class="font-semibold text-gray-800">
+            <p class="font-semibold text-gray-900">
               The goal is simple: consistent decisions under pressure.
             </p>
           </div>
         </div>
 
         <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100">
             <p class="text-sm font-semibold text-gray-500 mb-2">Format</p>
             <p class="text-lg font-bold text-gray-900">1:1 weekly</p>
             <p class="text-gray-600 mt-2">One 60-min session per week.</p>
           </div>
-          <div class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100">
             <p class="text-sm font-semibold text-gray-500 mb-2">Focus</p>
             <p class="text-lg font-bold text-gray-900">Match behavior</p>
             <p class="text-gray-600 mt-2">Tools that show up under pressure.</p>
           </div>
-          <div class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100">
             <p class="text-sm font-semibold text-gray-500 mb-2">Methods</p>
             <p class="text-lg font-bold text-gray-900">Applied training</p>
             <p class="text-gray-600 mt-2">Video, scenarios, routines, habits.</p>
           </div>
-          <div class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100">
             <p class="text-sm font-semibold text-gray-500 mb-2">Progress</p>
             <p class="text-lg font-bold text-gray-900">Track + adjust</p>
             <p class="text-gray-600 mt-2">We adapt based on results.</p>
@@ -126,23 +129,18 @@
         </div>
       </section>
 
-      <!-- WHY (refined, professional) -->
+      <!-- WHY -->
       <section id="why" class="mb-16">
-        <div class="max-w-5xl mx-auto bg-white p-8 rounded-2xl shadow border border-gray-100">
+        <div class="max-w-5xl mx-auto bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
           <h2 class="text-2xl font-bold text-gray-900 mb-4">Why we built this</h2>
           <p class="text-gray-700 text-lg leading-relaxed">
-            I didn’t grow up with emotional intelligence tools. In tennis, that meant frustration controlled my decisions and pressure moments felt overwhelming.
-            Later, the same patterns appeared in work and relationships: stress, reactivity, and disconnect.
-          </p>
-          <p class="text-gray-700 text-lg leading-relaxed mt-4">
-            When I began understanding how emotions work in the brain and trained regulation tools consistently, everything changed.
-            That experience shaped this program. We teach these skills early so young athletes don’t lose years of potential — in sport or life —
-            simply because no one trained them to self-regulate under pressure.
+            Many young athletes don’t receive structured emotional training. When pressure rises, frustration can drive decisions.
+            This program exists to teach regulation, reset, and focus early — so players compete with clarity and confidence over time.
           </p>
         </div>
       </section>
 
-      <!-- WHAT WE TRAIN (keep “skills” on same line) -->
+      <!-- WHAT WE TRAIN -->
       <section id="skills" class="mb-16">
         <div class="text-center">
           <h2 class="text-3xl font-bold text-gray-900 mb-4">What we train</h2>
@@ -152,118 +150,95 @@
         </div>
 
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100">
             <h3 class="font-bold text-lg text-gray-900 mb-2">Emotional awareness</h3>
-            <p class="text-gray-600">Identify triggers and patterns (before they take over).</p>
+            <p class="text-gray-600">Identify triggers and patterns before they take over.</p>
           </div>
-          <div class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100">
             <h3 class="font-bold text-lg text-gray-900 mb-2">Emotional regulation</h3>
             <p class="text-gray-600">Tools to calm the body and regain control in real time.</p>
           </div>
-          <div class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100">
             <h3 class="font-bold text-lg text-gray-900 mb-2">Focus & attention</h3>
-            <p class="text-gray-600">Attention anchors for big points and momentum swings.</p>
+            <p class="text-gray-600">Attention anchors for key points and momentum shifts.</p>
           </div>
-          <div class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100">
             <h3 class="font-bold text-lg text-gray-900 mb-2">Resilience & reset routine</h3>
-            <p class="text-gray-600">Recover after mistakes with a repeatable 30–60 sec protocol.</p>
+            <p class="text-gray-600">A repeatable 30–60 sec protocol after mistakes.</p>
           </div>
-          <div class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100">
             <h3 class="font-bold text-lg text-gray-900 mb-2">Video analysis</h3>
-            <p class="text-gray-600">We review match clips to connect emotions to decisions.</p>
+            <p class="text-gray-600">Connect emotions to decisions using match clips.</p>
           </div>
-          <div class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100">
             <h3 class="font-bold text-lg text-gray-900 mb-2">Scenario simulations + habits</h3>
-            <p class="text-gray-600">Scenario practice and weekly routines to build consistency.</p>
+            <p class="text-gray-600">Practice scenarios and weekly routines for consistency.</p>
           </div>
         </div>
       </section>
 
-      <!-- HOW IT WORKS (Step 4 kept) -->
-      <section id="how" class="mb-16 bg-gradient-to-r from-emerald-50 to-cyan-50 p-10 rounded-2xl border border-cyan-200 shadow-lg">
+      <!-- HOW IT WORKS -->
+      <section id="how" class="mb-16 bg-gradient-to-r from-emerald-50 to-cyan-50 p-10 rounded-2xl border border-cyan-200 shadow-sm">
         <h2 class="text-3xl font-bold text-gray-900 mb-3 text-center">How it works</h2>
         <p class="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto mb-10 text-center">
-          The program length is personalized. We start with an initial assessment and define the number of weeks based on results,
-          goals, and tournament calendar.
+          The program length is personalized. We start with an initial assessment and define the number of weeks based on goals and tournament calendar.
         </p>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
             <div class="w-10 h-10 rounded-full bg-emerald-600 text-white flex items-center justify-center font-extrabold mb-4">1</div>
-            <h3 class="font-bold text-xl mb-2 text-gray-900">Initial assessment</h3>
-            <p class="text-gray-600">
-              One 60-min session to understand match behavior, emotional patterns, strengths, and current challenges.
-              Includes a Character Strengths Test.
-            </p>
-            <div class="mt-4 inline-block bg-emerald-100 text-emerald-800 text-sm font-semibold px-3 py-1 rounded-full">1 hour</div>
+            <h3 class="font-bold text-xl mb-2 text-gray-900">Assessment</h3>
+            <p class="text-gray-600">Initial 60-min evaluation + strengths test.</p>
           </div>
 
-          <div class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
             <div class="w-10 h-10 rounded-full bg-emerald-600 text-white flex items-center justify-center font-extrabold mb-4">2</div>
-            <h3 class="font-bold text-xl mb-2 text-gray-900">Personalized plan</h3>
-            <p class="text-gray-600">
-              We define the focus areas and estimated number of weeks based on assessment results.
-              The plan is adjusted as the player progresses.
-            </p>
-            <div class="mt-4 inline-block bg-emerald-100 text-emerald-800 text-sm font-semibold px-3 py-1 rounded-full">Personalized</div>
+            <h3 class="font-bold text-xl mb-2 text-gray-900">Plan</h3>
+            <p class="text-gray-600">Personalized focus based on goals and tournaments.</p>
           </div>
 
-          <div class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
             <div class="w-10 h-10 rounded-full bg-emerald-600 text-white flex items-center justify-center font-extrabold mb-4">3</div>
-            <h3 class="font-bold text-xl mb-2 text-gray-900">Weekly sessions</h3>
-            <p class="text-gray-600">
-              One 60-min session per week including emotional training, video analysis, tournament calendar planning,
-              scenario simulations, and habits — connected to match situations.
-            </p>
-            <div class="mt-4 inline-block bg-emerald-100 text-emerald-800 text-sm font-semibold px-3 py-1 rounded-full">1 hr / week</div>
+            <h3 class="font-bold text-xl mb-2 text-gray-900">Weekly training</h3>
+            <p class="text-gray-600">Video review, routines, simulations, habits.</p>
           </div>
 
-          <div class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
             <div class="w-10 h-10 rounded-full bg-emerald-600 text-white flex items-center justify-center font-extrabold mb-4">4</div>
-            <h3 class="font-bold text-xl mb-2 text-gray-900">Final evaluation & continuity</h3>
-            <p class="text-gray-600">
-              We review progress, reassess key patterns, and create a continuity plan (maintenance, next focus areas,
-              and routines aligned with the tournament calendar).
-            </p>
-            <div class="mt-4 inline-block bg-emerald-100 text-emerald-800 text-sm font-semibold px-3 py-1 rounded-full">Wrap-up</div>
+            <h3 class="font-bold text-xl mb-2 text-gray-900">Review</h3>
+            <p class="text-gray-600">Final evaluation + continuity plan.</p>
           </div>
         </div>
       </section>
 
-      <!-- SUCCESS CASE: DELETED -->
-
-      <!-- OUTCOMES (kept) -->
+      <!-- OUTCOMES -->
       <section id="outcomes" class="mb-16">
-        <div class="max-w-4xl mx-auto bg-gray-100 p-8 rounded-2xl border text-left">
-          <h2 class="text-2xl font-bold text-gray-900 mb-4">🚀 Expected Outcomes</h2>
+        <div class="max-w-4xl mx-auto bg-gray-100 p-8 rounded-2xl border border-gray-200 text-left">
+          <h2 class="text-2xl font-bold text-gray-900 mb-4">Expected Outcomes</h2>
 
           <ul class="space-y-3 text-gray-700 text-lg">
-            <li class="flex items-start"><span class="text-green-500 mr-2">✅</span> Better emotional control in high-pressure matches.</li>
-            <li class="flex items-start"><span class="text-green-500 mr-2">✅</span> Faster recovery after mistakes (less spiraling).</li>
-            <li class="flex items-start"><span class="text-green-500 mr-2">✅</span> Stronger focus during key points and momentum swings.</li>
-            <li class="flex items-start"><span class="text-green-500 mr-2">✅</span> Improved decision-making under stress (shot selection, patience).</li>
-            <li class="flex items-start"><span class="text-green-500 mr-2">✅</span> More consistent routines before points and between games/sets.</li>
-            <li class="flex items-start"><span class="text-green-500 mr-2">✅</span> Reduced emotional burnout and healthier relationship with competition.</li>
-            <li class="flex items-start"><span class="text-green-500 mr-2">✅</span> Better communication with parents and coaches after matches.</li>
-            <li class="flex items-start"><span class="text-green-500 mr-2">✅</span> Improved confidence that is not dependent on winning.</li>
-            <li class="flex items-start"><span class="text-green-500 mr-2">✅</span> Transferable skills for school, relationships, and life.</li>
+            <li class="flex items-start"><span class="text-emerald-600 mr-2">•</span> Faster recovery after mistakes (less spiraling).</li>
+            <li class="flex items-start"><span class="text-emerald-600 mr-2">•</span> Better decisions under pressure.</li>
+            <li class="flex items-start"><span class="text-emerald-600 mr-2">•</span> Stronger focus in key moments and momentum swings.</li>
+            <li class="flex items-start"><span class="text-emerald-600 mr-2">•</span> More consistent routines between points and games.</li>
+            <li class="flex items-start"><span class="text-emerald-600 mr-2">•</span> Healthier relationship with competition over time.</li>
           </ul>
         </div>
       </section>
 
-      <!-- FAQ (kept) -->
+      <!-- FAQ -->
       <section id="faq" class="mb-16">
         <h2 class="text-3xl font-bold text-center text-gray-900 mb-10">FAQ</h2>
 
         <div class="max-w-4xl mx-auto space-y-4">
-          <details class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <details class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
             <summary class="font-bold text-gray-900 cursor-pointer">Is this therapy?</summary>
             <p class="mt-3 text-gray-700">
               No. This is performance-focused skill training: emotional awareness, regulation, routines, and match application.
             </p>
           </details>
 
-          <details class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <details class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
             <summary class="font-bold text-gray-900 cursor-pointer">What is the difference between this and sports psychology?</summary>
             <div class="mt-3 text-gray-700 space-y-2">
               <p>
@@ -271,72 +246,35 @@
                 Our program emphasizes <strong>emotional intelligence skill training</strong> — awareness, regulation, and behavior under pressure —
                 using tools from <strong>Positive Psychology</strong> and <strong>NLP</strong>, applied directly to match situations.
               </p>
-              <p>
-                In practice, this means structured training, repetition, and clear routines connected to real competition moments
-                (errors, big points, momentum swings, and post-match recovery).
-              </p>
             </div>
           </details>
 
-          <details class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <details class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
             <summary class="font-bold text-gray-900 cursor-pointer">How soon will we notice changes?</summary>
             <p class="mt-3 text-gray-700">
-              Many families notice early changes in reset speed, self-talk, and post-match recovery within the first few weeks,
-              especially with consistent weekly practice.
+              Many families notice early changes in reset speed and post-match recovery within the first few weeks, especially with consistent practice.
             </p>
           </details>
 
-          <details class="bg-white p-6 rounded-2xl shadow border border-gray-100">
+          <details class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
             <summary class="font-bold text-gray-900 cursor-pointer">What happens in a weekly session?</summary>
             <p class="mt-3 text-gray-700">
-              A 1-hour session blending emotional training with video analysis, tournament planning, scenario simulations,
-              and habit-building — always connected to real match moments.
+              A 60-min session blending emotional training with video analysis, scenario practice, routines, and habit-building — connected to real match moments.
             </p>
           </details>
-
-          <details class="bg-white p-6 rounded-2xl shadow border border-gray-100">
-            <summary class="font-bold text-gray-900 cursor-pointer">How is the program length defined?</summary>
-            <p class="mt-3 text-gray-700">
-              We start with the initial assessment and Character Strengths Test. Based on results and goals, we recommend an estimated number of weeks.
-              The plan is flexible and can be adjusted depending on progress and tournament calendar.
-            </p>
-          </details>
-
-          <details class="bg-white p-6 rounded-2xl shadow border border-gray-100">
-            <summary class="font-bold text-gray-900 cursor-pointer">How do parents support at home?</summary>
-            <p class="mt-3 text-gray-700">
-              Parents receive simple reinforcement guidelines: what to say, what to avoid, and how to support emotional recovery without adding pressure.
-            </p>
-          </details>
-        </div>
-
-        <!-- Compact pricing (not prominent) -->
-        <div class="max-w-4xl mx-auto mt-8 bg-emerald-50 border border-emerald-100 rounded-2xl p-6">
-          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-            <div>
-              <p class="font-bold text-emerald-900 text-lg">Session Rate</p>
-              <p class="text-emerald-800">
-                $150 per 60-minute session. Program length is recommended after the initial assessment.
-              </p>
-            </div>
-            <div class="text-right">
-              <div class="text-4xl font-extrabold gradient-text">$150</div>
-              <div class="text-sm text-emerald-800 font-semibold">per session</div>
-            </div>
-          </div>
         </div>
       </section>
 
     </div>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white mt-16">
-      <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 text-center">
-        <p>&copy; 2025 Happy Family | Happy Team | Happy Sports. All Rights Reserved.</p>
-        <p class="text-sm text-gray-400 mt-1">Empowering athletes to win on and off the court.</p>
+    <footer class="bg-gray-900 text-white mt-16">
+      <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8 text-center">
+        <p>&copy; 2026 Happy Sports. All Rights Reserved.</p>
+        <p class="text-sm text-gray-400 mt-1">Helping athletes compete with clarity under pressure.</p>
       </div>
     </footer>
-  </main>
 
+  </main>
 </body>
 </html>
